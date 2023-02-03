@@ -1,0 +1,1 @@
+select Name from STUDENTS where Marks > 75 order by SUBSTRING(Name, -3, 4), ID
